@@ -1,14 +1,17 @@
 import React from 'react';
 import './App.css';
-import person from './Person/person';
+import Person from './Person/Person';
 function App() {
   return (
     <div className="App">
       <h1>Hello World :)</h1>
       <p>Worked!</p>
-      <person />
+      <Person />
+      <Person />
+      <Person />
     </div>
   );
 }
+
 
 export default App;
